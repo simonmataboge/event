@@ -1,0 +1,1398 @@
+
+.header
+{
+   height: 70px;
+    background-color: black;
+    
+}
+@media screen and (max-width:1000px ) {
+	.header {
+		padding: 10px;width: 490px;
+	}
+}
+.header img
+{
+    height: 40px;
+    width: 50px;
+    margin-left: 140px;
+    margin-top: 15px;
+}
+@media screen and (max-width:1000px ) {
+	.header img {
+		margin-top: 0px;
+      margin-left: 10px;
+	}
+}
+
+#headerBox
+{
+    margin-left: 190px;
+    margin-top: -52px;
+    
+}
+@media screen and (max-width:1000px ) {
+	#headerBox {
+		margin-left: 10px;
+	}
+}
+.headerBox
+{
+    
+  
+}
+@media screen and (max-width:1000px ) {
+	.headerBox {
+		width: 460px;
+	}
+}
+
+
+.headerBox .fa
+{
+    margin-left: 0px;
+    padding: 10px;
+}
+
+.headerSocial
+{
+ 
+    color: ;
+    margin-top: -35px;
+    margin-left: 600px;
+    padding: 20px;
+    width: 170px;
+  
+}
+ @media screen and (max-width:1000px ) {
+	.headerSocial {
+      margin-left: 300px;
+	}
+} 
+ .headerSocial h6
+{
+    
+    margin-top: -20px;
+    font-weight: normal;
+    color: white;
+    background-color: goldenrod;
+    border-radius: 100px;
+    height: 40px;
+   
+}
+.headerSocial .fa
+{
+     margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+}
+em
+{
+    
+   
+    font-size: 12px;
+    font-weight: normal;
+    color: goldenrod;
+}
+ .box a:hover
+{
+    text-decoration: none;
+    color: goldenrod;
+}
+.headerSocial a:hover
+{
+    text-decoration: none;
+    color: #0094ff;    
+
+}
+.menu
+{
+    margin-top: -40px;
+    margin-left: 100px;
+}
+@media screen and (max-width:1000px ) {
+	.menu  {
+		display:none;
+	}
+}
+.menu li {
+    color: white;
+    margin-top: -200px;
+    text-align: ;
+    padding: 4px;display: inline-block;
+
+}
+.menu a {
+    color: white;
+    text-align: ;
+    padding: 4px;
+    padding-left: 40px;
+    font-size: 14px;
+    display: inline-block;
+
+}
+    /* Change color on hover */
+    .menu a:hover {
+        color: goldenrod;text-decoration: none;
+    }
+   
+.dropdown
+{
+	margin-left:0px;
+	margin-top:10px;
+	display:inline-block;	
+   
+  
+	
+	
+}
+.dropdown .btn
+{
+	
+	color:black;
+}
+.dropdown-toggle 
+{
+
+	color:black;
+	
+	
+}
+.dropdown a
+{
+    color: white;
+}
+.dropdown-menu a
+{
+    color: black;
+    padding-left: 20px;
+}
+
+.sidepanel 
+{
+    display: none;
+}
+@media screen and (max-width:1000px ){
+
+.sidepanel  
+    {
+      width:0px;
+      position:fixed;
+      z-index: 1;
+      height: 200px;
+      top: 80px;
+      margin-left: 0px;
+      background-color: goldenrod;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 10px;
+        border-radius: 10px;
+        display: block;
+    }
+}
+@media screen and (max-width:1000px ){
+
+.sidepanel{
+      list-style: none;
+    }
+}
+
+.sidepanel a {
+  padding:5px;
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+  display:;
+  transition: 0.3s;
+    margin-top: 0px;
+    text-align: ;
+}
+
+.sidepanel a:hover {
+  color: aqua;
+    text-decoration: none;
+}
+
+.sidepanel .closebtn 
+{
+  position: absolute;
+  top: 0;
+  right: 5px;
+  font-size: 36px;
+    margin-top: -10px;
+}
+
+.openbtn  
+{
+font-size: 20px;
+  cursor: pointer;
+  color: goldenrod;
+  border: none;
+    margin-top: 55px;
+  
+    
+
+ }
+@media screen and (max-width:1000px ){
+	.openbtn{
+        margin-left: 255px;
+      color: goldenrod;
+        
+	}
+}
+.openbtn:hover 
+{
+  background-color: transparent;
+    color: white;
+}
+
+@media screen and (max-width:1000px ){
+	.openbtn:hover{
+        
+      color: #0094ff;
+        
+	}
+}
+  
+
+
+
+
+#intro
+{
+    background-color: black;
+    color: white;
+    padding-top: 100px;
+    height: 200px;
+    text-align: center;
+}
+@media screen and (max-width:1000px ){
+	#intro{
+        width: 490px;
+      height: 200px;
+      padding-top: 50px;
+        
+	}
+}
+.intro
+{
+    
+    padding-top: 10px;
+}
+@media screen and (max-width:1000px ){
+	.intro{
+        width: 490px;
+      margin-left: 10px;
+        
+	}
+}
+.intro a
+{
+    color: white;
+}
+.intro ul li
+{
+    margin-left: 40px;
+}
+.intro .box
+{
+    width: 380px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+@media screen and (max-width:1000px ){
+	.intro .box{
+        width: 400px;
+      margin-top: 10px;
+      margin-left: 30px;
+        
+	}
+}
+
+
+
+
+
+
+
+#home
+{
+    height: 500px;
+    background: linear-gradient(0deg, goldenrod, black 30%);
+    margin-top: -2px;
+    color: white;
+    
+}
+@media screen and (max-width:1000px ){
+	#home{
+        height: 400px;
+        
+	}
+}
+.home
+{
+    
+    padding-top: 100px;
+    text-align: center;
+}
+@media screen and (max-width:1000px ){
+	.home{
+        margin-left: 50px;
+      padding-top: 50px;
+      text-align: left;
+      
+        
+	}
+}
+b{
+    color: goldenrod;
+    font-weight: normal;
+    font-size: 30px;
+}
+#home p{
+    color: grey;
+    width: 300px;
+    margin-left: 270px;
+    text-align: left;
+}
+@media screen and (max-width:1000px ){
+	#home p{
+        margin-left: -20px;
+      
+        
+	}
+}
+
+ .fa
+{
+    color: white;
+}
+.socials
+{
+    margin-top: 50px;
+}
+
+
+
+h6
+{
+    font-size: 12px;
+    font-weight: normal;
+    color: white;
+}
+
+
+
+#home .buy-btn {
+	display: flex;
+	justify-content: space-between;
+	width: 200px;
+	height: 40px;
+	margin-top: 40px;
+    margin-left: 250px;
+}
+@media screen and (max-width:1000px ){
+	#home .buy-btn{
+        margin-left: -20px;
+      
+        
+	}
+}
+.buy-btn a{
+	display: flex;
+	height: 40px;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 14px;
+	letter-spacing: 1px;
+	transition: 0.6s;
+	border-radius: 20px;
+	position: relative;
+	overflow: hidden;
+	margin-left: 10px;
+	border: 2px solid var(--hover-color);
+	box-shadow: 0 0 0.9rem goldenrod;
+    background-color: goldenrod;
+}
+
+.buy-btn a:hover {
+	color: goldenrod;
+    text-decoration: none;
+}
+
+.buy-btn a::before {
+	content: "";
+	display: flex;
+	width: 0;
+	height: 100%;
+	background-color: goldenrod;
+	transition: 0.4s;
+	position: absolute;
+	z-index: 1;
+	color: var(--bg-color);
+}
+
+.buy-btn a:hover {
+	background: var(--hover-color);
+}
+
+.buy-btn a:hover::before {
+	width: 0;
+}
+.advert
+{
+    background-color: black;margin-top: 0px;
+}
+marquee
+{
+    background-color: black;
+    color: white;padding: 10px; 
+    
+}
+ 
+@media screen and (max-width:1000px ){
+	#home h1{
+        margin-left: -20px;font-size: 38px;
+      
+        
+	}
+}
+ul li
+{
+    color: goldenrod;
+    font-size: 30px;
+    font-variant: small-caps;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#about
+{
+    margin-top: 0px;
+    color: white;
+    height: 600px;
+    text-align: center;
+    padding-top: 100px;
+    background: linear-gradient( 0deg, goldenrod, black 30%);
+}
+@media screen and (max-width:1000px ){
+	#about{
+        margin-top: 0px;height: 850px;
+        
+	}
+}
+.about
+{
+    margin-left: 100px;
+    padding-top: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 780px;
+    background: linear-gradient(0deg, goldenrod, black 30%);
+    padding-bottom: 20px;
+    box-shadow: 0 0 0.9rem goldenrod;
+    border-radius: 20px;
+}
+@media screen and (max-width:1000px ){
+	.about{
+        margin-left: 10px;
+      width: 470px;
+      padding-top: 50px;
+        
+	}
+}
+.about-box
+{
+    text-align: left;
+}
+#about .box
+{
+    width: 250px;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 50px;
+    text-align: left;
+    background: linear-gradient(  10deg, black, goldenrod 80%, black 10%);
+}
+@media screen and (max-width:1000px ){
+	#about .box{
+      margin-top: 40px;
+      margin-left: 100px;
+        
+	}
+}
+
+button
+{
+    background: linear-gradient(0deg, goldenrod, black 100%); 
+    border-color: transparent;
+    color: white;
+}
+#about .fa, #services .fa, #contact .fa
+{
+    background-color: black;
+    color: goldenrod;
+    padding: 10px;
+}
+
+
+
+
+
+
+#services
+{
+    background-color: black;
+    color: white;
+    height: 500px;
+    margin-top: 0px;
+    background: linear-gradient(0deg, goldenrod, black 30%);
+}
+@media screen and (max-width:1000px ){
+	#services{
+        width: 490px;
+      height: 700px;
+        
+	}
+}
+.services
+{
+    margin-left: 100px;
+    padding-top: 10px;
+}
+@media screen and (max-width:1000px ){
+	.services{
+        width: 490px;
+      margin-left: 10px;
+        
+	}
+}
+.services .box
+{
+    width: 390px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 100px;
+}
+@media screen and (max-width:1000px ){
+	.services .box{
+        width: 400px;
+      margin-top: 10px;
+      margin-left: 30px;
+        
+	}
+}
+.services h6
+{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#services ul li
+{
+    margin-left: 50px;
+}
+#services img
+{
+    width: 180px;
+    height: 120px;
+    margin-top: 10px;
+    border-radius: 10px;
+    
+}
+.box-info
+{
+    width: 180px;
+    background: linear-gradient(to top,black ,goldenrod);
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+}
+.box-info p
+{
+    font-size: 14px;
+    padding: 10px;
+    background: linear-gradient(to top ,goldenrod,black);
+    width: 160px;
+}
+.serv
+{
+    margin-top: -50px;
+}
+
+.serv .box
+{
+    width: 390px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    margin-top: 100px;
+}
+@media screen and (max-width:1000px ){
+	.serv .box{
+        width: 400px;
+      margin-top: 10px;
+      margin-left: 30px;
+        
+	}
+}
+.service
+{
+
+    width: 400px;
+    margin-left: -100px;
+}
+@media screen and (max-width:1000px ){
+	.service{
+       
+      margin-top: 100px;
+        
+	}
+}
+.service  ul
+{
+    margin-top: -50px;
+}
+.service  ul li
+{
+    background-color: goldenrod;
+    padding: 5px;
+    margin-top: 10px;
+    list-style: none;
+    border-radius: 10px;
+    color: white;
+    margin-left: -200px;
+    
+}
+.service  ul li:hover
+{
+    background-color: black;
+}
+.service .fa
+{
+    border-radius: 200px;
+}
+.service b
+{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#team
+{
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    height: 450px
+    text-align: center;
+}
+@media screen and (max-width:1000px ){
+	#team{
+        width: 490px;
+      height: 400px;
+      padding-top: 50px;
+        
+	}
+}
+.team
+{
+    margin-left: 100px;
+    padding-top: 10px;
+}
+@media screen and (max-width:1000px ){
+	.team{
+        width: 490px;
+      margin-left: 10px;
+        
+	}
+}
+.team ul li
+{
+    margin-left: 40px;
+}
+.team .box
+{
+    width: 380px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+@media screen and (max-width:1000px ){
+	.team .box{
+        width: 400px;
+      margin-top: 10px;
+      margin-left: 30px;
+        
+	}
+}
+.team h6
+{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.team p
+{
+    font-size: 12px;
+    
+}
+.team .fa
+{
+    color: lime;
+    font-size: 10px;
+}
+.team .info
+{
+
+    height: 200px;
+    border-radius: 10px;
+}
+.team .info a
+{
+    float: right;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: -10px;
+    color: goldenrod;
+    font-size: 12px;
+}
+.team .box .buy-btn
+{
+    width: 150px;
+    margin-left: -10px;
+}
+
+
+
+
+#teams
+{
+    background: linear-gradient(0deg, goldenrod, black 30%);
+    color: white;
+    height: 500px;
+    margin-top: 0px;
+}
+@media screen and (max-width:1000px ){
+	#teams{
+        width: 490px;
+      height: 700px;
+        
+	}
+}
+.teams
+{
+    margin-left: 100px;
+    padding-top: 100px;
+}
+@media screen and (max-width:1000px ){
+	.teams{
+        width: 490px;
+      margin-left: 10px;
+      padding-top: 10px;
+        
+	}
+}
+.teams .box
+{
+    width: 190px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    color: white; 
+    background: linear-gradient(to top ,goldenrod,black);
+    text-align: center;
+    
+}
+@media screen and (max-width:1000px ){
+	.teams .box{
+      margin-top: 10px;
+      margin-left: 30px;
+        
+	}
+}
+.info
+{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    width: 170px;
+    border-radius: 10px;
+}
+.info .fa 
+{
+    background-color: goldenrod;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+.teams .box a
+{
+    color: white;
+    font-size: 12px;
+}
+.teams .box a:hover
+{
+    color: black;
+}
+.teams h6
+{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.teams p, .teams p
+{
+    font-size: 12px;
+    
+}
+.teams img
+{
+    width: 170px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+
+
+
+#price
+{
+    background-color: black;
+    height: 200px;
+    margin-top: 0px;
+    text-align:center;
+    color: white;
+}
+@media screen and (max-width:1000px ){
+	#price{
+      width: 490px;
+      height: 220px;
+        
+	}
+}
+.price
+{
+   
+    padding-top: 10px;
+}
+@media screen and (max-width:1000px ){
+	.price{
+        width: 490px;
+      margin-left: 10px;
+        
+	}
+}
+
+
+
+
+
+
+#prices
+{
+    background: linear-gradient(0deg, goldenrod, black 30%);
+    color: white;
+    height: 500px;
+    margin-top: 0px;
+}
+@media screen and (max-width:1000px ){
+	#prices{
+        width: 490px;
+      height: 850px;
+        
+	}
+}
+.prices
+{
+    margin-left: 100px;
+    padding-top: 10px;
+}
+@media screen and (max-width:1000px ){
+	.prices{
+        width: 490px;
+      margin-left: 10px;
+        
+	}
+}
+.prices .box
+{
+    width: 380px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    background: linear-gradient(to top ,black,goldenrod);
+    color: white;
+    text-align: ;
+}
+@media screen and (max-width:1000px ){
+	.prices .box{
+        width: 400px;
+      margin-top: 10px;
+      margin-left: 30px;
+        
+	}
+}
+.prices p, .prices p
+{
+    font-size: 12px;
+    
+}
+.prices .price-info
+{
+    height: 350px;
+    border-radius: 10px;
+}
+
+
+dt
+{
+	
+	padding:10px;
+	width:250px;
+    font-size: 12px;
+	margin-top:-5px;
+	font-weight:lighter;
+    color: ;
+    border-radius: 5px;
+    text-align: left;
+}
+@media screen and (max-width:1000px ){
+	dt{
+		margin-left:30px;
+        
+   
+	}
+}
+
+.price-info .buy-btn {
+	display: flex;
+	justify-content: space-between;
+	width: 350px;
+	height: 40px;
+	margin-top: -10px;
+}
+
+.price-info .buy-btn a{
+	display: flex;
+	height: 40px;
+    width: 165px;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 14px;
+	letter-spacing: 1px;
+	transition: 0.6s;
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+	margin-left: 10px;
+	border: 2px solid var(--hover-color);
+	box-shadow: 0 0 0.9rem goldenrod;
+    background-color: goldenrod;
+}
+.price-info em
+{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#clients
+{
+background: linear-gradient(0deg, goldenrod, black 30%);   
+    color:white;
+    height: 500px;
+    
+}
+@media screen and (max-width:1000px ){
+	#clients{
+        margin-top:-50px;
+      width: 490px;
+      height: 600px;
+	}
+}
+.clients
+{
+    margin-left: 100px;
+    padding-top: 80px;
+}
+@media screen and (max-width:1000px ){
+	.clients{
+        margin-left: 40px;
+      
+	}
+}
+#clients .box
+{
+    width: 380px;
+    padding: 50px;
+    display: inline-block;
+    border-radius: 10px;
+    
+}
+@media screen and (max-width:1000px ){
+	#clients .box{
+        margin-top: -10px;
+      padding: 50px;
+      width: 400px;
+	}
+}
+#clients img
+{
+    height: 60px;
+    width: 60px;
+    margin-top: 20px;
+    border-radius: 100px;
+}
+@media screen and (max-width:1000px ){
+	#clients .box img{
+        margin-top: -20px;
+	}
+}
+#clients .img-box
+{
+    margin-top: 65px;
+    width: 300px;
+    margin-left: 0px;
+    position: absolute;
+    text-align: left;
+    
+}
+@media screen and (max-width:1000px ){
+	#clients .img-box{
+        margin-top: 0px;
+	}
+}
+#clients .box h6
+{
+    margin-top: -60px;
+    margin-left: 80px;
+    
+}
+
+#clients .box em
+{
+   
+    margin-left: 80px;
+    
+}
+
+.checked
+{
+    color: goldenrod;
+}
+
+.clients .box h1
+{
+    font-size: 100px;
+}
+.content
+{
+    text-align: center;
+    width: 200px;
+    margin-left: 100px;
+}
+@media screen and (max-width:1000px ){
+	.content{
+        margin-left: 50px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#blogs
+{
+    background: linear-gradient(0deg, goldenrod, black 30%); 
+    color: white;
+    height: 600px;
+    margin-top: 0px;
+}
+@media screen and (max-width:1000px ){
+	#blogs{
+        width: 490px;
+      height: 1300px;
+        
+	}
+}
+.blogs
+{
+    margin-left: 100px;
+    padding-top: 10px;
+}
+@media screen and (max-width:1000px ){
+	.blogs{
+        width: 490px;
+      margin-left: 40px;
+        
+	}
+}
+.blogs .box
+{
+    width: 260px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background: linear-gradient(to top ,black,goldenrod);
+    margin-top: 100px;
+    
+}
+@media screen and (max-width:1000px ){
+	.blogs .box{
+        width: 350px;
+      margin-top: 100px;
+      margin-left: 0px;
+        
+	}
+}
+.blogs h6
+{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.blogs p, .blogs p
+{
+    font-size: 12px;
+    
+}
+.blogs .fa
+{
+    color: goldenrod;
+    font-size: 20px;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+.blogs em
+{
+    color: white;
+}
+.blogs img
+{
+    width: 240px;
+    height: 150px;
+    border-radius: 10px;
+    margin-top: -50px;
+}
+@media screen and (max-width:1000px ){
+	.blogs img{
+        width: 330px;
+        
+	}
+}
+#blogs ul li
+{
+    margin-left: 40px;
+}
+
+
+
+#contact {
+	margin-top: 0px;
+	height: 400px;
+    background: linear-gradient(0deg, goldenrod, black 30%); 
+    color: white;
+	
+}
+@media screen and (max-width:1000px ) {
+	#contact {
+		height:800px;
+		margin-top: 0px;
+	}
+}
+.contact {
+	margin-left: 120px;
+	width: 800px;
+	padding: 10px;
+    padding-top: 100px;
+}
+@media screen and (max-width:1000px ) {
+	.contact {
+		margin-left:0px;
+		width: 460px;
+	}
+}
+@media screen and (max-width:400px ) {
+	.contact {
+		margin-left:0px;
+width:490px;
+	}
+}
+#contact .box-info
+{
+    width: 250px;
+    background: linear-gradient(to top,black ,goldenrod);
+    display: inline-block;
+    border-radius: 10px;
+    padding: 10px;
+}
+#contact .box-info p
+{
+    font-size: 14px;
+    padding: 20px;
+    background: black;
+    width: 210px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+#contact h6
+{
+    padding: 10px;
+}
+@media screen and (max-width:1000px ) {
+    .contact-box-content {
+        margin-top: 0px;
+    }
+}
+
+.contact-box ul 
+{
+    margin-left: -40px;
+    list-style: none;
+}
+.contact  li 
+{
+   
+    list-style: none;
+    width: 220px;
+}
+
+ ul li em, ul li h6
+{
+	color: black;
+	list-style: circle;
+}
+.contact-box-content .digit
+{
+    width: 320px;
+}
+.contact-box-content .digit ul li
+{
+    width: 120px;
+}
+
+
+#footer
+{
+  background-image: url(image22.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+    color:white;
+}
+
+.footer
+{
+    margin-left: 140px;
+    padding-top: 20px;
+}
+@media screen and (max-width:1000px ) {
+	.footer{		
+		margin-left: 10px;	
+      width: 490px;
+	}
+    }
+.footer-box
+{
+    width: 190px;
+    display: inline-block;
+}
+@media screen and (max-width:1000px ) {
+	.footer-box{		
+      width: 240px;
+	}
+    }
+.footer-box p
+{
+    color: grey;
+    font-size: 14px;
+    margin-top: -20px;
+}
+.footer-box a
+{
+    color: white;
+}
+.footer-box a:hover
+{
+    color: coral;
+    text-decoration: none;
+}
+
+.logo img 
+{
+    margin-left:10px;height:50px;width:60px;
+}
+@media screen and (max-width:1000px ){
+	.logo img {
+        margin-left: 0px;
+        margin-top: 0px;
+	}
+}
+
+
+.footer .socials
+{
+    margin-top: -10px;
+}
+.footer .fa
+{
+    background-color: goldenrod;
+    border-radius: 5px;
+    padding: 10px;
+}
+.footer em
+{
+    color: white;
+    font-size: 14px;
+}
